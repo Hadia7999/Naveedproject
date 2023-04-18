@@ -1,0 +1,17 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="regression">
+
+<parameter name="url" value="https://www.remitly.com"></parameter>
+
+<test name="chrome browser">
+<parameter name="brow" value="chrome"></parameter>
+<groups><run><include name="regression" /></run></groups>
+
+
+<classes>
+<class name="Config.TestingCode.NewTest95"></class>
+</classes>
+</test>
+</suite>
+
